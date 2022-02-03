@@ -14,11 +14,11 @@
 } 
 
 .btn{
-    width: 60px;
     background-color: #0061ff;
     display: inline-block;
     text-align: center;
     line-height: 30px;
+    padding: 3px 12px;
 }
 
 .float-left{
@@ -29,12 +29,30 @@
     float: right;
 }
 
+.fixed{
+    position: fixed;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w70{
+    width: 70%;
+}
+
 /* classi nav */
 
-.container .left-header, .right-header{
+.container{
+    width: 100%;
     padding: 20px;
-    background-color: aqua;
-    width: 50%;
+    background-color: white;
+}
+
+.container .right-header{
+    position:relative;
+    top: 0;
+    right: 0;
 }
 
 .container span{
@@ -46,7 +64,7 @@
     padding-right: 15px;
 }
 
-.container a{
+a{
     text-decoration: none;
     color: white;
 }
@@ -54,3 +72,42 @@
 .container .btn{
     margin-left: 15px;
 }
+
+/* classi header */
+
+.container2{
+    background-color: rgba(0,97,254,.5);
+    padding: 200px 150px 0;
+    padding-top: 250px;
+    height: 800px;
+}
+
+.container2 h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.container2 p{
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.container2 .btn{
+    margin-bottom: 10px;
+}
+
+.container2 img{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.arrow-down{
+    font-size: 60px;
+    margin-top: 25px;
+}
+
+.container2 .content span{
+    display: block;
+    font-size: 15px;
+}
+
