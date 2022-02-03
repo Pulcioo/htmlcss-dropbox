@@ -5,3 +5,52 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* classi riutilizzabili */
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+} 
+
+.btn{
+    width: 60px;
+    background-color: #0061ff;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+/* classi nav */
+
+.container .left-header, .right-header{
+    padding: 20px;
+    background-color: aqua;
+    width: 50%;
+}
+
+.container span{
+    padding: 15px;
+    font-size: 15px;
+}
+
+.container img{
+    padding-right: 15px;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .btn{
+    margin-left: 15px;
+}
