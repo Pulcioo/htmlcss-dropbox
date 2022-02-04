@@ -216,12 +216,42 @@ main input{
     margin-bottom: 30px;
 }
 
-.container3 .up{
+.container3 .up, .down{
     padding: 40px;
 }
 
 #input{
     margin-right: 50px;
+}
+
+.big-list{
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 12%;
+}
+
+.tab span{
+    display: block;
+    font-size: small;
+}
+
+.tab .text{
+   padding: 40px;
+   position: relative;
+}
+
+.tab h4{
+    margin-bottom: 18px;
+}
+
+.tab h5{
+    margin-bottom: 25px;
+}
+ 
+.tab .btn{
+    position: absolute;
+    top: 40px;
+    right: 40px;
 }
 
 
