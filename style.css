@@ -70,6 +70,11 @@
 .align{
     text-align: center;
 }
+
+.margin12{
+    margin-right: 12%;
+}
+
 /* inizio classi nav */
 
 .container{
@@ -299,3 +304,36 @@ main input{
 .container4 .btn{
     margin-top: 25px;
 }
+
+/* inizio sezione operations */
+
+.container5{
+   margin: auto 10%;
+}
+
+.container5 h2{
+    margin-top: 150px;
+    margin-bottom: 15px;
+}
+
+.operations{
+    width: 25%;
+    margin-top: 40px;
+}
+
+.container5 img{
+    width: 100%;
+}
+
+.container5 p span{
+    text-decoration: underline;
+}
+
+.container5 p{
+    font-size: small;
+}
+
+.container5 h4{
+    margin-bottom: 20px;
+}
+
