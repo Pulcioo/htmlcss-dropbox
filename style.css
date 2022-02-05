@@ -337,3 +337,159 @@ main input{
     margin-bottom: 20px;
 }
 
+/* sezione team */
+
+.team{
+    width: 350px;
+    margin-left: 10%;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.team h2{
+    margin-bottom: 40px;
+}
+
+.continer6{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.container6 .cont-squares{
+    width: 30%;
+    position: relative;
+}
+
+#designit{
+    width: 216px;
+    height: 216px;
+    background-color: #a2d39b;
+}
+
+#arizona{
+    width: 216px;
+    height: 216px;
+    background-color: #61082b;
+    position: absolute;
+    top: 0;
+    left: 216px;
+}
+
+#florida{
+    width: 216px;
+    height: 216px;
+    background-color: rgba(0,97,254,.5);
+}
+
+#topps{
+    width: 216px;
+    height: 216px;
+    background-color: red;
+    position: absolute;
+    top: 216px;
+    left: 216px;
+}
+
+.container6 .cit{
+    width: 40%;
+    height: 432px;
+    background-color: #f5f5f5;
+    padding: 50px;
+}
+
+#bicycle{
+    width: 216px;
+    height: 216px;
+    background-color: #d5001f;
+}
+
+#hearst{
+    width: 216px;
+    height: 216px;
+    background-color: #99c0ff;
+    position: absolute;
+    top: 0;
+    left: 216px;
+}
+
+#lonely{
+    width: 216px;
+    height: 216px;
+    background-color: #0052d8;
+}
+
+#clear{
+    width: 216px;
+    height: 216px;
+    background-color: #ffd830;
+    position: absolute;
+    top: 216px;
+    left: 216px;
+}
+
+.size{
+    width: 150px;
+}
+
+.position{
+    position: relative;
+    top: 85px;
+    left: 35px;
+}
+
+.position-2{
+    position: relative;
+    top: 55px;
+    left: 35px;
+}
+
+.position-3{
+    position: relative;
+    top: 100px;
+    left: 35px;
+}
+
+.position-4{
+    position: relative;
+    top: 100px;
+    left: 35px;
+}
+
+.position-5{
+    position: relative;
+    top: 65px;
+    left: 35px;
+}
+
+.cit p{
+    font-size: small;
+    margin-top: 80px;
+}
+
+.cit img{
+    margin-bottom: 50px;
+}
+
+/* sezione Dropbox nella tua azienda  */
+
+.container7{
+    width: 100%;
+    height: 300px;
+    background-color: #b4d0e7;
+}
+
+.container7 .text7{
+    color: #61092b;
+    display: inline-block;
+    width: 300px;
+    margin-left: 10%;
+    position: relative;
+    top: 45%;
+}
+
+.position-6{
+    position: relative;
+    top: 110px;
+    left: 480px
+}
+
