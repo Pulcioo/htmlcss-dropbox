@@ -83,7 +83,7 @@
 
 .container{
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     background-color: white;
     z-index: 2;
 }
@@ -94,13 +94,18 @@
     right: 0;
 }
 
+.container .left-header{
+    margin-top: 7px;
+}
+
 .container span{
-    padding: 15px;
+    padding: 20px;
     font-size: 15px;
 }
 
 .container img{
     padding-right: 15px;
+    margin-top: 5px;
 }
 
 a{
@@ -504,8 +509,28 @@ main input{
 }
 
 .request{
-    line-height: 100px;
     border-bottom: 1px solid black;
+}
+
+.request h3{
+    margin-bottom: 30px;
+}
+
+.request h5{
+    margin: 30px auto;
+}
+
+.request p{
+    display: none;
+    font-size: small;
+    color: grey;
+    line-height: 16px;
+    margin-bottom: 30px;
+}
+
+.request p a{
+    color: grey;
+    text-decoration: underline;
 }
 
 /* sezione footer */
@@ -545,8 +570,37 @@ main input{
 
 #language{
     font-size: small;
-    color: lightgrey;
+    color: rgb(243, 243, 243);
     margin-bottom: 0;
     padding-bottom: 30px;
 }
 
+/* eventi */
+
+.btn:hover{
+    background-color: rgb(123, 191, 233);
+}
+
+#grey-hover:hover{
+    background-color: rgb(250, 245, 245);
+}
+
+#grey2:hover{
+    background-color: rgb(250, 245, 245);
+}
+
+.container span:hover{
+    border-bottom: 3px solid rgb(38, 38, 231);
+}
+
+.blue:hover{
+    text-decoration: none;
+}
+
+.column li:hover{
+    text-decoration: underline;
+}
+
+.request:hover p{
+    display: block;
+}
