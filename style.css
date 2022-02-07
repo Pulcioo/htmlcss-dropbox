@@ -275,6 +275,10 @@ main input{
     right: 40px;
 }
 
+.container3 li i{
+    color: rgb(3, 60, 247);
+}
+
 /* parte img partner */
 
 .container4{
@@ -533,6 +537,11 @@ main input{
     text-decoration: underline;
 }
 
+.container8 h5 i{
+    position: relative;
+    left: 540px;
+}
+
 /* sezione footer */
 
 .container9{
@@ -573,6 +582,10 @@ main input{
     color: rgb(243, 243, 243);
     margin-bottom: 0;
     padding-bottom: 30px;
+}
+
+.container9 i{
+    color: rgb(243, 243, 243);
 }
 
 /* eventi */
